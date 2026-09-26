@@ -1,0 +1,2232 @@
+{
+  "version": 1,
+  "currency": "INR",
+  "business_defaults": {
+    "display_name": "WAAAT THE EVENTS",
+    "receipt_footer": "PLEASE DRINK RESPONSIBLY",
+    "timezone": "Asia/Kolkata"
+  },
+  "categories": [
+    {
+      "name": "Imported Whisky",
+      "group_type": "ALCOHOL",
+      "sort_order": 1
+    },
+    {
+      "name": "Imported Vodka",
+      "group_type": "ALCOHOL",
+      "sort_order": 2
+    },
+    {
+      "name": "Domestic Vodka",
+      "group_type": "ALCOHOL",
+      "sort_order": 3
+    },
+    {
+      "name": "Domestic Whisky",
+      "group_type": "ALCOHOL",
+      "sort_order": 4
+    },
+    {
+      "name": "Domestic Brandy",
+      "group_type": "ALCOHOL",
+      "sort_order": 5
+    },
+    {
+      "name": "Domestic Rum",
+      "group_type": "ALCOHOL",
+      "sort_order": 6
+    },
+    {
+      "name": "Gin",
+      "group_type": "ALCOHOL",
+      "sort_order": 7
+    },
+    {
+      "name": "Imported Brandy",
+      "group_type": "ALCOHOL",
+      "sort_order": 8
+    },
+    {
+      "name": "Domestic Beer",
+      "group_type": "ALCOHOL",
+      "sort_order": 9
+    },
+    {
+      "name": "Imported Beer",
+      "group_type": "ALCOHOL",
+      "sort_order": 10
+    },
+    {
+      "name": "Shots",
+      "group_type": "ALCOHOL",
+      "sort_order": 11
+    },
+    {
+      "name": "Cocktails",
+      "group_type": "ALCOHOL",
+      "sort_order": 12
+    },
+    {
+      "name": "Bar Non-Alcoholic",
+      "group_type": "BEVERAGE",
+      "sort_order": 13
+    },
+    {
+      "name": "Soups",
+      "group_type": "FOOD",
+      "sort_order": 14
+    },
+    {
+      "name": "Salads",
+      "group_type": "FOOD",
+      "sort_order": 15
+    },
+    {
+      "name": "Retro Special",
+      "group_type": "FOOD",
+      "sort_order": 16
+    },
+    {
+      "name": "Momos",
+      "group_type": "FOOD",
+      "sort_order": 17
+    },
+    {
+      "name": "Wings",
+      "group_type": "FOOD",
+      "sort_order": 18
+    },
+    {
+      "name": "Veg Starters",
+      "group_type": "FOOD",
+      "sort_order": 19
+    },
+    {
+      "name": "Sea Starter",
+      "group_type": "FOOD",
+      "sort_order": 20
+    },
+    {
+      "name": "Mutton",
+      "group_type": "FOOD",
+      "sort_order": 21
+    },
+    {
+      "name": "Beef Starter",
+      "group_type": "FOOD",
+      "sort_order": 22
+    },
+    {
+      "name": "Egg",
+      "group_type": "FOOD",
+      "sort_order": 23
+    },
+    {
+      "name": "Chicken",
+      "group_type": "FOOD",
+      "sort_order": 24
+    },
+    {
+      "name": "Tikka",
+      "group_type": "FOOD",
+      "sort_order": 25
+    },
+    {
+      "name": "Rice",
+      "group_type": "FOOD",
+      "sort_order": 26
+    },
+    {
+      "name": "Fried Rice",
+      "group_type": "FOOD",
+      "sort_order": 27
+    },
+    {
+      "name": "Noodles",
+      "group_type": "FOOD",
+      "sort_order": 28
+    },
+    {
+      "name": "Indian Breads",
+      "group_type": "FOOD",
+      "sort_order": 29
+    },
+    {
+      "name": "Veg Gravy",
+      "group_type": "FOOD",
+      "sort_order": 30
+    },
+    {
+      "name": "Chicken Gravy",
+      "group_type": "FOOD",
+      "sort_order": 31
+    },
+    {
+      "name": "Mutton Gravy",
+      "group_type": "FOOD",
+      "sort_order": 32
+    },
+    {
+      "name": "Seafood Gravy",
+      "group_type": "FOOD",
+      "sort_order": 33
+    },
+    {
+      "name": "Ice Cream",
+      "group_type": "FOOD",
+      "sort_order": 34
+    },
+    {
+      "name": "Juice",
+      "group_type": "FOOD",
+      "sort_order": 35
+    },
+    {
+      "name": "Beverages",
+      "group_type": "FOOD",
+      "sort_order": 36
+    }
+  ],
+  "products": [
+    {
+      "name": "Teachers",
+      "category": "Imported Whisky",
+      "price_rupees": 399,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Grands",
+      "category": "Imported Whisky",
+      "price_rupees": 399,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Jameson",
+      "category": "Imported Whisky",
+      "price_rupees": 449,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Jack Daniel",
+      "category": "Imported Whisky",
+      "price_rupees": 549,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "JW Black Label",
+      "category": "Imported Whisky",
+      "price_rupees": 549,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Grey Goose",
+      "category": "Imported Vodka",
+      "price_rupees": 549,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Absolute",
+      "category": "Imported Vodka",
+      "price_rupees": 449,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Smirnoff Vodka",
+      "category": "Imported Vodka",
+      "price_rupees": 399,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Eristoff",
+      "category": "Domestic Vodka",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Juno Pink",
+      "category": "Domestic Vodka",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Juno Plane Vodka",
+      "category": "Domestic Vodka",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Signature",
+      "category": "Domestic Whisky",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Royal Challenge",
+      "category": "Domestic Whisky",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Antiquity",
+      "category": "Domestic Whisky",
+      "price_rupees": 299,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "1848 Whisky",
+      "category": "Domestic Whisky",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Morpheus Blue",
+      "category": "Domestic Brandy",
+      "price_rupees": 299,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Morpheus Black",
+      "category": "Domestic Brandy",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "1848 Brandy",
+      "category": "Domestic Brandy",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Bacardi",
+      "category": "Domestic Rum",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Bacardi Black / Lemon",
+      "category": "Domestic Rum",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Old Monk",
+      "category": "Domestic Rum",
+      "price_rupees": 249,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Gordens",
+      "category": "Gin",
+      "price_rupees": 349,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Beefeater",
+      "category": "Gin",
+      "price_rupees": 399,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Bombay Sapphire",
+      "category": "Gin",
+      "price_rupees": 449,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Behave VSOP",
+      "category": "Imported Brandy",
+      "price_rupees": 549,
+      "unit_label": "30 ml",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Kingfisher Ultra Max",
+      "category": "Domestic Beer",
+      "price_rupees": 549,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Kingfisher Select",
+      "category": "Domestic Beer",
+      "price_rupees": 449,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "British Empire",
+      "category": "Domestic Beer",
+      "price_rupees": 449,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Amstell",
+      "category": "Imported Beer",
+      "price_rupees": 549,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Jägermeister",
+      "category": "Shots",
+      "price_rupees": 449,
+      "unit_label": "1 shot",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Kahlúa",
+      "category": "Shots",
+      "price_rupees": 349,
+      "unit_label": "1 shot",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Baileys",
+      "category": "Shots",
+      "price_rupees": 349,
+      "unit_label": "1 shot",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Patrón Tequila",
+      "category": "Shots",
+      "price_rupees": 349,
+      "unit_label": "1 shot",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Camino Tequila",
+      "category": "Shots",
+      "price_rupees": 249,
+      "unit_label": "1 shot",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Mojito",
+      "category": "Cocktails",
+      "price_rupees": 299,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Sunrise / Sunset",
+      "category": "Cocktails",
+      "price_rupees": 299,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Sex on the Beach",
+      "category": "Cocktails",
+      "price_rupees": 299,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Pina Colada",
+      "category": "Cocktails",
+      "price_rupees": 299,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Whisky Sour",
+      "category": "Cocktails",
+      "price_rupees": 299,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Dai Kuri",
+      "category": "Cocktails",
+      "price_rupees": 249,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Maxina Beach",
+      "category": "Cocktails",
+      "price_rupees": 249,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Blue Lagoon",
+      "category": "Cocktails",
+      "price_rupees": 249,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Long Island Ice Tea",
+      "category": "Cocktails",
+      "price_rupees": 549,
+      "unit_label": "1 cocktail",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Bartender Special Mocktails",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 199,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "All Juices (by glass)",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 149,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Tannic Water",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 179,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "alcohol-menu-image",
+      "notes": "Source spelling/price is ambiguous; confirm intended product and event price before activation."
+    },
+    {
+      "name": "Ginger Air",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 179,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "alcohol-menu-image",
+      "notes": "Source spelling/price is ambiguous; confirm intended product and event price before activation."
+    },
+    {
+      "name": "Soft Drinks (by glass)",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 149,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "alcohol-menu-image"
+    },
+    {
+      "name": "Water Bottle",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "alcohol-menu-image",
+      "notes": "Price conflicts with food-menu PDF; confirm event price before activation."
+    },
+    {
+      "name": "Soda",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 99,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "alcohol-menu-image",
+      "notes": "Price conflicts with food-menu PDF; confirm event price before activation."
+    },
+    {
+      "name": "Red Bull",
+      "category": "Bar Non-Alcoholic",
+      "price_rupees": 199,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "alcohol-menu-image",
+      "notes": "Price conflicts with food-menu PDF; confirm event price before activation."
+    },
+    {
+      "name": "Manchow Soup Veg",
+      "category": "Soups",
+      "price_rupees": 160,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Hot & Sour Soup Veg",
+      "category": "Soups",
+      "price_rupees": 160,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Sweet Corn Soup Veg",
+      "category": "Soups",
+      "price_rupees": 160,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Manchow Soup Nonveg",
+      "category": "Soups",
+      "price_rupees": 180,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Hot & Sour sop Nonveg",
+      "category": "Soups",
+      "price_rupees": 180,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Sweet Corn Soup Nonveg",
+      "category": "Soups",
+      "price_rupees": 180,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Veg Salad",
+      "category": "Salads",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Peanut Salad",
+      "category": "Salads",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Channa Salad",
+      "category": "Salads",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Fruit Salad",
+      "category": "Salads",
+      "price_rupees": 140,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 2
+    },
+    {
+      "name": "Sundal",
+      "category": "Retro Special",
+      "price_rupees": 80,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Rasavada",
+      "category": "Retro Special",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "French Fries",
+      "category": "Retro Special",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Onion Pakoda",
+      "category": "Retro Special",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Crispy Corn",
+      "category": "Retro Special",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Podi Idli",
+      "category": "Retro Special",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Chicken Popcorn",
+      "category": "Retro Special",
+      "price_rupees": 150,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Veg Momos - Steamed",
+      "category": "Momos",
+      "price_rupees": 180,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Veg Momos - Fried",
+      "category": "Momos",
+      "price_rupees": 180,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Chicken Momos - Steamed",
+      "category": "Momos",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Chicken Momos - Fried",
+      "category": "Momos",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Schezwan Chicken Momos - Steamed",
+      "category": "Momos",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Schezwan Chicken Momos - Fried",
+      "category": "Momos",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Paneer Momos - Steamed",
+      "category": "Momos",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Paneer Momos - Fried",
+      "category": "Momos",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Chicken Wings",
+      "category": "Wings",
+      "price_rupees": 200,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Sweet Chilly Wings",
+      "category": "Wings",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Seasame Honey Wings",
+      "category": "Wings",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "Hot Garlic Wings",
+      "category": "Wings",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 3
+    },
+    {
+      "name": "French fries",
+      "category": "Veg Starters",
+      "price_rupees": 150,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Cheese Pineapple",
+      "category": "Veg Starters",
+      "price_rupees": 150,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Gobi 65",
+      "category": "Veg Starters",
+      "price_rupees": 200,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Chilli Gobi",
+      "category": "Veg Starters",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Gobi Manchurian",
+      "category": "Veg Starters",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Mushroom 65",
+      "category": "Veg Starters",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Paneer 65",
+      "category": "Veg Starters",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Garlic Pepper Mushroom",
+      "category": "Veg Starters",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Mushroom Manchurian",
+      "category": "Veg Starters",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Lotus Stem - 65",
+      "category": "Veg Starters",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Chilli Paneer",
+      "category": "Veg Starters",
+      "price_rupees": 260,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Seasame Honey Lotus Stem",
+      "category": "Veg Starters",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4,
+      "notes": "Second identical line also appears in source; seed only one active record."
+    },
+    {
+      "name": "Honey Chilli Fried Lotus Stem",
+      "category": "Veg Starters",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Chilli Lotus Stem",
+      "category": "Veg Starters",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Fried Garlic & Pepper Lotus steam",
+      "category": "Veg Starters",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 4
+    },
+    {
+      "name": "Nethili Fish Fry",
+      "category": "Sea Starter",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Fish Finger",
+      "category": "Sea Starter",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Fish 65",
+      "category": "Sea Starter",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Chilli Fish",
+      "category": "Sea Starter",
+      "price_rupees": 320,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Phuket Fish",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Crispy Pepper Squid",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Butter Garlic Squid",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Chilli Prawns",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Prawn 65",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Lemon & Garlic Prawns - Fried",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Lemon & Garlic Prawns - Non-Fried",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Sesame Honey Prawns",
+      "category": "Sea Starter",
+      "price_rupees": 360,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Fish Fry Vanjaram",
+      "category": "Sea Starter",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5
+    },
+    {
+      "name": "Mutton Ghee Roast",
+      "category": "Mutton",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Mutton Pepper Fry",
+      "category": "Mutton",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Mutton Chukka",
+      "category": "Mutton",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Chilli Beef",
+      "category": "Beef Starter",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Beef Tawa",
+      "category": "Beef Starter",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Boiled Egg",
+      "category": "Egg",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Half / Half Boiled",
+      "category": "Egg",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Masala Omelette",
+      "category": "Egg",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Egg Podimas",
+      "category": "Egg",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Chilli Egg",
+      "category": "Egg",
+      "price_rupees": 150,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Cheese Omelette",
+      "category": "Egg",
+      "price_rupees": 150,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 6
+    },
+    {
+      "name": "Chicken 65",
+      "category": "Chicken",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Chicken Lollipop",
+      "category": "Chicken",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Pepper Chicken",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Schezwan Chicken",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Chicken Chinthamani",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Chicken Pallipalayam",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Chicken Chukka",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Andhra Chicken Fry",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Tawa Chicken Fry",
+      "category": "Chicken",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Chilli Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Drums of Heaven",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Dragon Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Seasame Honey Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Lemon Garlic Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Japan Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Hunan Chicken",
+      "category": "Chicken",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 7
+    },
+    {
+      "name": "Hariyali Chicken Tikka",
+      "category": "Tikka",
+      "price_rupees": 200,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Paneer Tikka",
+      "category": "Tikka",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Paneer Malai Tikka",
+      "category": "Tikka",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Chicken Tikka",
+      "category": "Tikka",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Chicken Seekh Kabab",
+      "category": "Tikka",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Chicken Malai Tikka",
+      "category": "Tikka",
+      "price_rupees": 320,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Tandoori Chicken - Half",
+      "category": "Tikka",
+      "price_rupees": 300,
+      "unit_label": "Half",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Tandoori Chicken - Full",
+      "category": "Tikka",
+      "price_rupees": 570,
+      "unit_label": "Full",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Saffron",
+      "category": "Rice",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Jeera Rice",
+      "category": "Rice",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Curd Rice",
+      "category": "Rice",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Steamed Rice",
+      "category": "Rice",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "Rasam Rice",
+      "category": "Rice",
+      "price_rupees": 120,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 8
+    },
+    {
+      "name": "veg Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 210,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Egg Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 220,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Mushroom Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Gobi Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Paneer Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 260,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Chicken Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 260,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Prawn Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 290,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Mixed Veg Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 299,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Mixed Non Veg Fried Rice",
+      "category": "Fried Rice",
+      "price_rupees": 330,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 9
+    },
+    {
+      "name": "Egg Noodles",
+      "category": "Noodles",
+      "price_rupees": 230,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Veg Noodles",
+      "category": "Noodles",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Mushroom Noodles",
+      "category": "Noodles",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Gobi Noodles",
+      "category": "Noodles",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Paneer Noodles",
+      "category": "Noodles",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Chicken Noodles",
+      "category": "Noodles",
+      "price_rupees": 270,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Prawn Noodles",
+      "category": "Noodles",
+      "price_rupees": 300,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Mixed Veg Noodles",
+      "category": "Noodles",
+      "price_rupees": 310,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Mixed Non Veg Noodles",
+      "category": "Noodles",
+      "price_rupees": 340,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 10
+    },
+    {
+      "name": "Phulka",
+      "category": "Indian Breads",
+      "price_rupees": 60,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Chapatthi",
+      "category": "Indian Breads",
+      "price_rupees": 60,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "plain Naan",
+      "category": "Indian Breads",
+      "price_rupees": 60,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Butter Naan",
+      "category": "Indian Breads",
+      "price_rupees": 70,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Butter Garlic Naan",
+      "category": "Indian Breads",
+      "price_rupees": 80,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Rumale Roti",
+      "category": "Indian Breads",
+      "price_rupees": 80,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Cheese Naan",
+      "category": "Indian Breads",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Daal Tadka",
+      "category": "Veg Gravy",
+      "price_rupees": 199,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Mushroom Peas Masala",
+      "category": "Veg Gravy",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Aloo Gobi Kadai Masala",
+      "category": "Veg Gravy",
+      "price_rupees": 240,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Kadai Paneer",
+      "category": "Veg Gravy",
+      "price_rupees": 250,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "category": "Veg Gravy",
+      "price_rupees": 260,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 11
+    },
+    {
+      "name": "Butter Chicken Masala",
+      "category": "Chicken Gravy",
+      "price_rupees": 299,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Kadai Chicken",
+      "category": "Chicken Gravy",
+      "price_rupees": 299,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "category": "Chicken Gravy",
+      "price_rupees": 299,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Chettinad Chicken Currry",
+      "category": "Chicken Gravy",
+      "price_rupees": 299,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Mutton Varutha Curry",
+      "category": "Mutton Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Mutton Pepper Masala",
+      "category": "Mutton Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Prawn Tokku",
+      "category": "Seafood Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Prawn Pepper Masala",
+      "category": "Seafood Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Chettinad Prawn Curry",
+      "category": "Seafood Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Kerala Prawn",
+      "category": "Seafood Gravy",
+      "price_rupees": 350,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 12
+    },
+    {
+      "name": "Chocolate",
+      "category": "Ice Cream",
+      "price_rupees": 79,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Vennila",
+      "category": "Ice Cream",
+      "price_rupees": 79,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Strawberry",
+      "category": "Ice Cream",
+      "price_rupees": 79,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Lemon Juice",
+      "category": "Juice",
+      "price_rupees": 49,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Watermelon",
+      "category": "Juice",
+      "price_rupees": 79,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Lemon Soda (Salt / Sweet)",
+      "category": "Juice",
+      "price_rupees": 79,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Pineapple",
+      "category": "Juice",
+      "price_rupees": 99,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Canned Juice",
+      "category": "Juice",
+      "price_rupees": 99,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 13
+    },
+    {
+      "name": "Water",
+      "category": "Beverages",
+      "price_rupees": 25,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 14
+    },
+    {
+      "name": "Soda",
+      "category": "Beverages",
+      "price_rupees": 30,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "food-menu-pdf",
+      "source_page": 14,
+      "notes": "Price conflicts with food-menu PDF; confirm event price before activation."
+    },
+    {
+      "name": "7 up",
+      "category": "Beverages",
+      "price_rupees": 50,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 14
+    },
+    {
+      "name": "Pepsi",
+      "category": "Beverages",
+      "price_rupees": 50,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 14
+    },
+    {
+      "name": "Tonic Water",
+      "category": "Beverages",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 14
+    },
+    {
+      "name": "Ginger ale",
+      "category": "Beverages",
+      "price_rupees": 100,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 14
+    },
+    {
+      "name": "Red Bull",
+      "category": "Beverages",
+      "price_rupees": 200,
+      "unit_label": "1 serving",
+      "active": true,
+      "needs_confirmation": true,
+      "source": "food-menu-pdf",
+      "source_page": 14,
+      "notes": "Price conflicts with food-menu PDF; confirm event price before activation."
+    },
+    {
+      "name": "Butter Garlic Lobster",
+      "category": "Sea Starter",
+      "price_rupees": null,
+      "unit_label": "1 serving",
+      "active": false,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5,
+      "notes": "Seasonal price in source; ADMIN must configure numeric price before activation."
+    },
+    {
+      "name": "Pepper Crab",
+      "category": "Sea Starter",
+      "price_rupees": null,
+      "unit_label": "1 serving",
+      "active": false,
+      "needs_confirmation": false,
+      "source": "food-menu-pdf",
+      "source_page": 5,
+      "notes": "Seasonal price in source; ADMIN must configure numeric price before activation."
+    }
+  ],
+  "unpriced_source_items": [
+    {
+      "name": "Butter Garlic Lobster",
+      "category": "Sea Starter",
+      "source": "food-menu-pdf",
+      "source_page": 5,
+      "source_price_text": "Seasonal"
+    },
+    {
+      "name": "Pepper Crab",
+      "category": "Sea Starter",
+      "source": "food-menu-pdf",
+      "source_page": 5,
+      "source_price_text": "Seasonal"
+    }
+  ],
+  "unresolved_menu_rules": [
+    {
+      "name": "Fried Rice Schezwan",
+      "source_text": "Schezwan (₹ 20 extra)",
+      "source_page": 9,
+      "action": "Do not invent a standalone product price; implement only after billing behavior is confirmed."
+    },
+    {
+      "name": "Noodles Schezwan",
+      "source_text": "Schezwan (₹ 20 extra)",
+      "source_page": 10,
+      "action": "Do not invent a standalone product price; implement only after billing behavior is confirmed."
+    }
+  ]
+}

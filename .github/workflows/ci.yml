@@ -1,0 +1,27 @@
+name: Verify POS
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run format:check
+      - name: Install native PostgreSQL for isolated integration tests
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql-16
+          echo "/usr/lib/postgresql/16/bin" >> "$GITHUB_PATH"
+      - run: npm run test:db
+      - run: npm run test:auth
+      - run: npx playwright install --with-deps chrome
+      - run: npm run test:e2e
+        env:
+          E2E_PRODUCTION: '1'

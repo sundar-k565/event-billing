@@ -1,0 +1,5 @@
+# Optional: expose PostgreSQL on loopback for running Next.js on the host.
+services:
+  db:
+    ports:
+      - "127.0.0.1:5433:5432"

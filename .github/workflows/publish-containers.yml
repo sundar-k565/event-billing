@@ -1,0 +1,53 @@
+name: Publish WAAAT POS containers
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: read
+  packages: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-qemu-action@v3
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Select image tags
+        id: tags
+        shell: bash
+        run: |
+          echo "app=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/waaat-pos:$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+          echo "setup=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/waaat-pos-setup:$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+          echo "latest=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/waaat-pos:latest" >> "$GITHUB_OUTPUT"
+          echo "setup_latest=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/waaat-pos-setup:latest" >> "$GITHUB_OUTPUT"
+      - name: Publish application image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          target: runner
+          platforms: linux/amd64,linux/arm64
+          push: true
+          build-args: APP_VERSION=${{ github.ref_name }}
+          tags: |
+            ${{ steps.tags.outputs.app }}
+            ${{ steps.tags.outputs.latest }}
+      - name: Publish setup image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          target: initializer
+          platforms: linux/amd64,linux/arm64
+          push: true
+          build-args: APP_VERSION=${{ github.ref_name }}
+          tags: |
+            ${{ steps.tags.outputs.setup }}
+            ${{ steps.tags.outputs.setup_latest }}

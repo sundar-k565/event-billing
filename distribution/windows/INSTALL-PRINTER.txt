@@ -1,0 +1,16 @@
+WAAAT POS — TVS RP-3160 Gold printer setup
+
+Do this on the Windows laptop that will print the receipts. The printer driver is installed on Windows; it is not installed inside the POS Docker app.
+
+1. Connect the printer power cable. Leave the USB cable unplugged for now.
+2. Open the official TVS RP-3160 Gold product page:
+   https://www.tvs-e.in/thermal-receipt-printers/rp-3160-gold/
+3. Under Downloads, download “SETUP RP3160 GOLD V1.01”. It is the manufacturer's printer setup package.
+4. In Downloads, right-click the ZIP file and choose “Extract All”. Open the extracted folder and run its Setup program. Approve the Windows administrator prompt if Windows asks.
+5. Follow the setup prompts. Connect the printer's USB cable when asked. If setup asks you to choose a model, select RP-3160 Gold.
+6. Open Windows Settings → Bluetooth & devices → Printers & scanners. Confirm the RP-3160 Gold appears, open it, and print a Windows test page if offered.
+7. Start WAAAT POS, sign in, open a saved bill, and select “Print receipt”. In Chrome choose the RP-3160 Gold, the 80 mm roll paper option, 100% scale, and turn off browser headers and footers.
+
+The receipt uses a 72 mm content area on an 80 mm roll. The first print may need a small scale or margin adjustment in the printer/Chrome settings. Use “Print receipt” again to test; printing never changes the saved bill.
+
+Official TVS specifications list 80 mm paper, USB/serial interfaces, and a 160 mm/s print speed. This app uses normal Windows browser printing. It does not use an ESC/POS printer SDK. The physical printer still needs a real test print to confirm driver settings, width, and cutter behavior.
