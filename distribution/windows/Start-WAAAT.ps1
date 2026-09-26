@@ -51,15 +51,23 @@ if (-not (Test-Path -LiteralPath '.env')) {
   Write-Host 'Saved your new administrator sign-in in WAAAT-Login.txt.' -ForegroundColor Green
 }
 
+$composeFile = 'compose.yaml'
 if (Test-Path -LiteralPath 'waaat-images.tar') {
   docker.exe image load -i (Join-Path $PSScriptRoot 'waaat-images.tar')
   if ($LASTEXITCODE -ne 0) { Stop-WithMessage 'Could not install the WAAAT app images. Please run Start-WAAAT.bat again.' }
+} else {
+  $sourceRoot = Join-Path $PSScriptRoot '..\..'
+  if (-not (Test-Path -LiteralPath (Join-Path $sourceRoot 'Dockerfile'))) {
+    Stop-WithMessage 'This folder has no offline images and is not inside the downloaded WAAAT source folder. Download the repository ZIP from GitHub, extract it, then run this launcher from distribution\windows.'
+  }
+  $composeFile = 'compose-from-source.yaml'
+  Write-Host 'No offline image archive found. Docker will build WAAAT POS from the downloaded source; first start can take 5-10 minutes.' -ForegroundColor Cyan
 }
 
 Write-Host 'Starting WAAAT POS. First start can take a few minutes.' -ForegroundColor Cyan
-docker.exe compose -f compose.yaml up -d --wait --wait-timeout 240
+docker.exe compose -f $composeFile up -d --wait --wait-timeout 600
 if ($LASTEXITCODE -ne 0) {
-  docker.exe compose -f compose.yaml logs --tail 30 init waaat-pos db
+  docker.exe compose -f $composeFile logs --tail 30 init waaat-pos db
   Stop-WithMessage 'The app could not start. Check Docker Desktop is running and you have at least 4 GB of free memory.'
 }
 Write-Host 'WAAAT POS is ready at http://127.0.0.1:3000/login' -ForegroundColor Green

@@ -15,9 +15,9 @@ Open <http://127.0.0.1:3000/login>. The initial administrator email is **admin@w
 
 ## Let a non-technical friend run it on Windows
 
-Send your friend the release folder or ZIP named `WAAAT-POS-Windows.zip`. The AMD64 image bundle is preloaded so they can start without cloning the repository or installing Node.js. They need a Windows 10/11 64-bit laptop, Docker Desktop, and roughly 4 GB of free memory.
+Your friend does not need the large offline image archive. They need a Windows 10/11 64-bit laptop, Docker Desktop, internet access for the first build, and roughly 4 GB of free memory.
 
-They install Docker Desktop once, extract the ZIP to Documents, open Docker Desktop, wait until it says the engine is running, then double-click `Start-WAAAT.bat`. The first run imports a fresh menu and creates a local admin password in `WAAAT-Login.txt`; the launcher opens the browser after the app is healthy. Later they use the same launcher to start and `Stop-WAAAT.bat` to stop. Their database stays on their own laptop; it does not include your current sales database.
+They open <https://github.com/sundar-k565/event-billing>, select **Code → Download ZIP**, extract it, then open `distribution/windows` and double-click `Start-WAAAT.bat`. The launcher creates local passwords, builds the application from the downloaded source, imports a fresh menu, and opens the browser after the app is healthy. First start can take 5–10 minutes; later starts are faster. `WAAAT-Login.txt` contains the locally generated administrator login. Use `Stop-WAAAT.bat` to stop the app. Their database stays on their own laptop; it does not include your current sales database.
 
 For the RP-3160 Gold, they follow `INSTALL-PRINTER.txt` on the Windows computer connected to the printer. The official TVS Windows driver belongs on Windows. In Chrome choose RP-3160 Gold, an 80 mm roll, 100% scale, and disable browser headers/footers. A real receipt test is needed to tune width and cutting.
 
